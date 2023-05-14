@@ -11,3 +11,44 @@ body {
     background-position: center;
     overflow: hidden;
 }
+.header__main {
+    margin: 8rem 11rem;
+}
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__main-left {
+    color: #D0D6F9;
+}
+.header__main-left__toptext {
+    letter-spacing: 4.75px;
+    font-size: 28px;
+}
+.header__main-left__middletext {
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 13px;
+    font-weight: normal;
+}
+.header__main-left__bottomtext {
+    width: 450px;
+    /* height: 10px; */
+    letter-spacing: 1px;
+}
+.header_main-right {
+    background-color: #fff;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-top: 13rem;
+    letter-spacing: 6px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_main-right-text{
+    color: #0B0D17;
+}

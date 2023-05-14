@@ -25,8 +25,11 @@
     justify-content: space-evenly;
 }
 .nav__right-navbar__item {
-    /* padding-right: 7rem; */
     cursor: pointer;
+    transition: all ease 100ms;
+}
+.nav__right-navbar__item:hover {
+    border-bottom: 3px solid #D0D6F9;
 }
 .nav__right-navbar__item-num {
     font-weight: bold;
