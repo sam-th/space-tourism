@@ -1,0 +1,62 @@
+@import "nav-bar.css";
+
+body {
+    background-image: url(../destination/background-destination-desktop.jpg);
+    overflow: hidden;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main__left-texts {
+    color: #fff;
+    letter-spacing: 2.7px;
+    font-size: 22px;
+}
+.main__left-texts-number {
+    color: #8b8d97;
+    font-weight: bold;
+} 
+.main__left-img {
+    width: 400px;
+    padding-top: 2.2rem;
+}
+.main__right {
+    margin-top: 2rem;
+}
+.main__right-topbar {
+    color: #D0D6F9;
+    width: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.main__right-topbar__item {
+    letter-spacing: 4px;
+    font-size: 16px;
+    padding-bottom: 3px;
+    transition: all ease 100ms;
+    cursor: pointer;
+}
+.main__right-topbar__item:hover {
+    border-bottom: 3px solid #D0D6F9;
+}
+.main__right-topbar__item--active {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+.main__right-main__title {
+    color: #fff;
+    font-size: 98px;
+    padding-top: 3rem;
+    letter-spacing: 4.8px;
+}
+.main__right-main__text {
+    width: 558px;
+    color: #D0D6F9;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
