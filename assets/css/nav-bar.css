@@ -5,7 +5,19 @@
     margin: 3rem 0;
     align-items: center;
 }
-
+.nav__right{
+    position: relative;
+}
+.nav__right::after{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 2.8px;
+    background-color: rgba(109, 109, 109, 0.4);
+    top: 40px;
+    right: 820px;
+    border-radius: 20px;
+}
 .nav__left {
     margin-left: 3.7rem;
 }
