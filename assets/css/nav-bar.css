@@ -11,10 +11,10 @@
 .nav__right::after{
     content: "";
     position: absolute;
-    width: 70%;
+    width: 63%;
     height: 2.8px;
     background-color: rgba(109, 109, 109, 0.4);
-    top: 40px;
+    top: 50px;
     right: 820px;
     border-radius: 20px;
 }
