@@ -1,4 +1,5 @@
 @import "./nav-bar.css";
+@import "./defult.css";
 
 body {
     background-image: url(../technology/background-technology-desktop.jpg);
