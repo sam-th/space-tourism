@@ -48,6 +48,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .5s;
+}
+.header_main-right:hover {
+    box-shadow: rgba(50, 50, 93, 0.91) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .header_main-right-text{
     color: #0B0D17;
