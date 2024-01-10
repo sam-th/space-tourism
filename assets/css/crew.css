@@ -65,6 +65,7 @@ body {
 .slider__left-buttons {
     font-size: 12px;
     padding-bottom: 70px;
+    display: flex;
 }
 
 .slider__left-button {
@@ -79,4 +80,11 @@ body {
 .slider__right-img {
     width: 460px;
     height: 495px;
+}
+
+.slider__left-button {
+    width: 27px;
+    height: 26px;
+    user-select: none;
+    cursor: pointer;
 }
